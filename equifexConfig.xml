@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CNCustTransmitToEfx xmlns="http://www.equifax.ca/XMLSchemas/Production">
+<CNCustomerInfo>
+<CustomerCode>R357</CustomerCode>
+<CustomerInfo>
+<CustomerNumber>999RE00304</CustomerNumber>
+<SecurityCode>04</SecurityCode>
+</CustomerInfo>
+<CustomerId>for billing get from Clients</CustomerId>
+</CNCustomerInfo>
+<CNRequests>
+<CNConsumerRequests>
+<CNConsumerRequest>
+<Subjects>
+<Subject subjectType="SUBJ">
+<SubjectName>
+<LastName>TESTEVANS</LastName>
+<FirstName>ALPHONSO</FirstName>
+</SubjectName>
+<SocialInsuranceNumber></SocialInsuranceNumber>
+<DateOfBirth>1977-03-02</DateOfBirth>
+<Occupation></Occupation>
+</Subject>
+<Addresses>
+<Address addressType="CURR">
+<CivicNumber>150</CivicNumber><StreetName>Graydon Hall Drive</StreetName><City>Toronto</City>
+<Province code="ON"/><PostalCode>M3A3B3</PostalCode>
+</Address>
+</Addresses>
+</Subjects>
+<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+<ECOAInquiryType>I</ECOAInquiryType>
+<JointAccessIndicator>N</JointAccessIndicator>
+</CNConsumerRequest>
+</CNConsumerRequests>
+</CNRequests>
+</CNCustTransmitToEfx>
+
+
+
+Customer Number
+999RE00304
+
+
+Security Code
+04
+
+Customer Code
+R357

@@ -1,0 +1,17 @@
+version: 0.2
+env:
+  secrets-manager:
+    APP_KEY: "arn:aws:iam::277707135642:role/CodePipelineStarterTemplate-CIBuildNo-CodeBuildRole-6nOQBtZodSc5"
+phases:
+  install:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - npm start
+artifacts:
+  files:
+    - '**/*'
